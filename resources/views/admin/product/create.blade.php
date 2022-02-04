@@ -19,7 +19,7 @@
             </div>
             <hr>
             <div class="dashboard-body-content">
-                <h5>Add Product2</h5>
+                <h5>Add Product</h5>
                 <hr>
                 <form action="{{ route('admin.product.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
